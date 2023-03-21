@@ -1,0 +1,189 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> About Me</title>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+	<style type="text/css">
+		header{
+	width: 100%;
+	height: 100vh;
+	background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)),
+	url('background.png');
+	background-size:cover ;
+	font-family:sans-serif ;
+}
+nav{
+	width: 100%;
+	height: 100px;
+	color: white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.logo{
+	font-size: 2em;
+	letter-spacing: 2px;
+}
+.menu a{
+	text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+	font-size: 20px;
+	position: relative;
+}
+.menu a:before{
+	content:'';
+	position: absolute;
+	top:0;
+	left: 0;
+	width:0% ;
+	height:100% ;
+	border-bottom: 2px solid indianred;
+	transition: 0.4s linear;
+}
+.menu a:hover:before{
+	width: 90%;
+}
+.register a{
+	text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+	font-size: 20px;
+	background:indianred ;
+	border-radius: 10px;
+}
+.register a:hover{
+	background: transparent;
+	border: 1px solid indianred;
+}
+.container{
+	width:100%;
+	height:100vh;
+	background-image: url(background.png);
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	justify-content: Center;
+}
+.profile-box{
+	background: #0d3b4e;
+	text-align: center;
+	padding: 40px 90px;
+	color: #fff;
+	position:relative ;
+	border-radius: 20px;
+	border-color: #000000;
+}
+.menu-iocn{
+	width: 25px;
+	position: absolute;
+	left: 40px;
+	top: 40px;
+}
+.setting-iocn{
+	width: 25px;
+	position: absolute;
+	right: 40px;
+	top: 40px;
+}
+.profile-pic{
+	width: 150px;
+	border-radius:50%;
+	background:#fff;
+	padding: 6px;
+	margin-top:40px ;
+}
+.profile-bottom{
+	background: #fff;
+	color:#0d3b4e;
+	padding: 60px 0;
+	margin-right:-90px ;
+	margin-left: -90px;
+	margin-bottom: -40px;
+	border-radius: 20px;
+	margin-top: -10px;
+}
+
+.profile-bottom img{
+	width: 15px;
+	margin-top: 15px;
+	cursor: pointer;
+
+}
+.profile-bottom h3{
+	color: #0d3b4e;
+}
+.profile-box button{
+	background: #fff;
+	color:#0d3b4e;
+	border: none;
+	outline: none;
+	box-shadow: 0 5px 10px rgba(244, 67, 54, 0.5);
+	padding: 15px 60px;
+	cursor: pointer;
+	border-radius: 30px;
+	margin-bottom: -50px;
+	font-weight: 600;
+	font-size: 16px;
+}
+.profile-box h3{
+	font-size: 22px;
+	margin-top: 20px;
+	font-weight: 500;
+
+}
+.social-media img{
+	width: 20px;
+	margin: 30px 5px;
+	cursor: pointer;
+}
+
+
+	</style>
+</head>
+<body>
+	<header>
+	<nav><div class="logo">
+		Trip-Tok
+		</div>
+		<div class="menu">
+			<a href="index.html">Home</a>
+			<a href="station.html">Book Now</a>
+			<a href="bestoffer.html">Best Offer's</a>
+			<a href="aboutme.html">About us</a>
+			<a href="contact.html">Contact</a>
+		</div>
+		<div class="register">
+			<a href="#">Register</a>
+		</div>
+	</nav>
+	<div class="container">
+		<div class="profile-box">
+			<img src="profile-pic.jpg" class="profile-pic">
+			<h3> Ayush Neupane</h3>
+			<p>Student, Video-Editor, Designer</p>
+			<div class="social-media">
+				<a href="https://www.instagram.com/n_ayushh/"><img src="instagram.png"> </a>
+			</div>
+<button type="button"> 
+	<a href="https://www.instagram.com/n_ayushh/">Follow</button> </a>
+<div class="profile-bottom"> 
+<h3>Learn More</h3>
+<img src="arrow.png">
+
+		</div>
+	</div>
+	<div class="about">
+        <div class="inner-section">
+            <h1 >About Me</h1>
+            <p class="text">
+                “I enjoy interacting with others. To me, one of life’s greatest joys is making new friends and expanding one’s circle of knowledge. I’m good at striking up conversations with total strangers and making them feel at ease in my company. 
+            </p>
+            <div class="skills">
+              <a href="contact.html">  <button>Contact Us</button></a>
+            </div>
+</body>
+</html>
